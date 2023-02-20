@@ -1,0 +1,21 @@
+{
+  "name": "ignite-2023-pj-02-apirest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.0",
+    "fastify": "^4.13.0"
+  }
+}
