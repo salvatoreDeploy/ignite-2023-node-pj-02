@@ -1,1 +1,4 @@
 /node_modules
+tmp/app.db
+.gitignore
+package-lock.json
