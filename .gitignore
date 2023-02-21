@@ -3,3 +3,4 @@ tmp/app.db
 .gitignore
 package-lock.json
 .env
+Document.md
