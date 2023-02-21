@@ -1,0 +1,30 @@
+_id: req_307099fc98bf4d77a255e841ae37fa0c
+type: Request
+parentId: wrk_e56d5ee5198d4fd6b2cb59ea2f3104d0
+modified: 1676948463234
+created: 1676948208770
+url: http://localhost:3333/transactions
+name: Create Transaction
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Freelancer",
+    	"amount": 3000,
+    	"type": "credit"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1676948208770
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
