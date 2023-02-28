@@ -1,5 +1,5 @@
 import { FastifyInstance } from "fastify";
-import crypto from "node:crypto";
+import crypto, { randomUUID } from "node:crypto";
 
 import { z } from "zod";
 import { knex } from "../database";
@@ -38,6 +38,17 @@ export async function transactionsRoute(app: FastifyInstance) {
       type: z.enum(["credit", "debit"]),
     });
 
+    let sessionId = request.cookies.sessionId;
+
+    if (!sessionId) {
+      sessionId = randomUUID();
+
+      reply.cookie("sessionId", sessionId, {
+        path: "/",
+        maxAge: 1000 * 60 * 60 * 24, // 7 days
+      });
+    }
+
     const { title, amount, type } = createTransactionBodySchema.parse(
       request.body
     );
@@ -46,6 +57,7 @@ export async function transactionsRoute(app: FastifyInstance) {
       id: crypto.randomUUID(),
       title,
       amount: type === "credit" ? amount : amount * -1,
+      session_id: sessionId,
     });
 
     return reply.status(201).send({ message: "successful transaction" });
