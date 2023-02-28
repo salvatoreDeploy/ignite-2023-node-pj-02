@@ -1,0 +1,21 @@
+_id: req_98afd30768e44521a6f0ecebc62137a1
+type: Request
+parentId: wrk_e56d5ee5198d4fd6b2cb59ea2f3104d0
+modified: 1677555238390
+created: 1677548729208
+url: http://localhost:3333/transactions/c32e091b-b33d-4f01-b737-d97ff86315b6
+name: Get Transaction
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676940182204
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

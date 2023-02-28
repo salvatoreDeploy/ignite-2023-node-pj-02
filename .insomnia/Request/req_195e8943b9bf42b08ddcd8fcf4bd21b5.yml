@@ -1,0 +1,21 @@
+_id: req_195e8943b9bf42b08ddcd8fcf4bd21b5
+type: Request
+parentId: wrk_e56d5ee5198d4fd6b2cb59ea2f3104d0
+modified: 1677549222089
+created: 1677549070573
+url: http://localhost:3333/transactions/summary
+name: Get Summary
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676938844443
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

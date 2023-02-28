@@ -1,0 +1,21 @@
+_id: req_1adddd49bd3a420f98296a3a6a6a51b7
+type: Request
+parentId: wrk_e56d5ee5198d4fd6b2cb59ea2f3104d0
+modified: 1677548738731
+created: 1677548386592
+url: http://localhost:3333/transactions
+name: List Transactions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676942857726
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
