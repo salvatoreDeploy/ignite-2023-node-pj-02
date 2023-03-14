@@ -4,3 +4,4 @@ tmp/app.db
 package-lock.json
 .env
 Document.md
+.env.test
