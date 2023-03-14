@@ -1,7 +1,20 @@
+# Dependecies
+
 /node_modules
-tmp/app.db
-.gitignore
 package-lock.json
+
+# Database
+
+temp/*.db
+
+# Enviroment
+
 .env
-Document.md
 .env.test
+
+# Document
+
+Document.md
+
+# Build
+build
