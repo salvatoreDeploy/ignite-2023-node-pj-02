@@ -1,0 +1,14 @@
+_id: env_2e3450c830484c7ea6a13aa87d0df3d0
+type: Environment
+parentId: env_ba0de4c02b0f2245ab77b40e8d6e5275b5da024b
+modified: 1678769392488
+created: 1678769368253
+name: PROD
+data:
+  url: https://api-node-transaction-service.onrender.com
+dataPropertyOrder:
+  "&":
+    - url
+color: "#3c2c63"
+isPrivate: false
+metaSortKey: 1678769368253

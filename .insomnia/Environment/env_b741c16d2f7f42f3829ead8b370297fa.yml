@@ -1,0 +1,14 @@
+_id: env_b741c16d2f7f42f3829ead8b370297fa
+type: Environment
+parentId: env_ba0de4c02b0f2245ab77b40e8d6e5275b5da024b
+modified: 1678769464000
+created: 1678769288581
+name: DEV
+data:
+  url: https://localhost:3333
+dataPropertyOrder:
+  "&":
+    - url
+color: "#e81111"
+isPrivate: false
+metaSortKey: 1678769288581
